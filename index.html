@@ -11,13 +11,12 @@
 </head>
 
 <body>
-
     <!-- header -->
     <header class="header">
         <h1 class="header-logo"> Gloria LOKO</h1>
         <div class="header-menu">
             <a class="header-menu-item no-underline" href="#" download> Projets</a>
-            <a class="header-menu-item no-underline" href="./assets/documents/Resume.pdf" download> Me contacter </a>
+            <a class="header-menu-item no-underline" href="#section_contact"> Me contacter </a>
         </div>
     </header>
 
@@ -61,10 +60,59 @@
     </div>
 
 
-    <!-- contact -->
+    <!--contact -->
 
-    <!-- </main> -->
+    <hr class="separateur" />
 
-    <!-- footer -->
+    <section class="contact-container" id="section_contact">
+        <div>
+            <h1 class="contact-section"> Me contacter</h1>
+            <p class="contact-subtitle  "> Pour plus d'information veiller remplir le formulaire ci-dessous </p>
+
+        </div>
+        <!-- main -->
+        <form action="#">
+            <div class="grid-2">
+                <div class="form-group">
+                    <label class="form-label" for="nom">Nom</label>
+                    <input class="form-input" type="text" id="nom" name="nom" required />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="prenoms">Prénoms</label>
+                    <input class="form-input" type="text" id="prenoms" name="prenoms" required />
+                </div>
+
+            </div>
+            <div class="form-group">
+                <label class="form-label" for="email"> email </label>
+                <input class="form-input" type="text" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+                <label class="form-label" for="form-message">message</label>
+                <textarea class="form-input" id="message" name="message" rows="5" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="form-action"> Soumettre </button>
+            </div>
+
+        </form>
+
+    </section>
+
+    <hr class="separateur" />
+
+    <footer class="footer-copyright">
+        <p class="copyright-info">&copy; 2024-LOKO Gloria </p>
+    </footer>
+
+
+
+
+
+
+
 
 </body>
